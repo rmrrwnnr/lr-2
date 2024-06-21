@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/my.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <title>сайтик</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="navigation">
+            <img class="navigation-logo" src="./public/logo.svg" alt="">
+            <ul class="navigation__list">
+                <li class="navigation__list-item">
+                    <a href="#" class="navigation__list-item-link">
+                        Возможности
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="#" class="navigation__list-item-link">
+                        Как это работает?
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="navigatiom-mob">
+        <div class="container">
+            <div class="adaptiv" id="">
+                <img class="logo-adaptiv" src="/public/logo-adapt.png" alt="">
+                <button class="header__burger-btn" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#opportunities" class="menu__link">
+                                Возможности
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#materials" class="menu__link">
+                                Как это работает?
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="menu__bottom">    
+                        <li class="menu__item-bottom">
+                            <a href="#" class="menu__link-bottom">
+                                г Сургут, ул Базовая, д. 34, офис 10<br>
+                                ОГРН 1238600001200<br>
+                                ИНН 8602309464
+                            </a>
+                        </li>
+                        <li class="menu__item-bottom">
+                            <a href="#" class="menu__link-bottom">
+                                ООО Дотсолюшн © 2023
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="promo">
+        <div class="container">
+            <div class="promo-bg">
+                <div class="col-lg-5 col-sm-12">
+                    <h1>
+                        Сервис для проведения онлайн-занятий
+                    </h1>
+                    <div class="promo-p">
+                        Проводите видеоуроки для всего<br>класса, как будто вы в школе
+                    </div>
+                    <div class="promo__card">
+                        <div class="promo__card-one">
+                            <a href="https://sun9-58.userapi.com/impg/Ar5Zv2xm6VB9_YWlmyUIMN3I3I1CbzUzlFCmWQ/vktZKmImMNU.jpg?size=810x1080&quality=96&sign=49c9c175c6d77ffb69dd1e136f10c2e8&type=album" class="promo__card-one-nav">
+                                Провести урок
+                            </a>
+                        </div>
+                        <div class="promo__card-two">
+                            <a href="https://sun9-46.userapi.com/impg/66ZKUF6Q6DFUiwDdrVurBn1dJ8i7Tf0uMyL8Gw/JlQWLfFZ07A.jpg?size=810x1080&quality=96&sign=29649e4d07f285b3a3aa09ef283a94f6&type=album" class="promo__card-two-nav">
+                                Посмотреть демо
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+                <img class="promo-pic-adapt" src="./public/adapt.png" alt="">
+                <img class="promo-pic" src="./public/promo.png" alt="">  
+            </div>
+        </div> 
+    </section>
+    <section class="class">
+        <div class="container">
+            <div class="class-bg">
+                <div class="col-lg-5 col-sm-12">
+                    <h2>
+                        Проводите видеоуроки с целым классом
+                    </h2>
+                    <p>
+                        Добавьте учеников в класс, запланируйте урок и отправьте им ссылку. Они смогут заниматься с ноутбука, планшета или мобильного телефона.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Урок на платформе легко вместит целый класс, а качество видеосвязи при этом не ухудшится.
+                    </p>
+                </div>
+                <img class="class-pic" src="./public/class.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="lessons">
+        <div class="container">
+            <div class="lessons-bg">
+                <img class="lessons-pic" src="./public/lessons.png" alt="">
+                <div class="lessons__card">
+                    <h2>
+                        Просматривайте историю занятий
+                    </h2>
+                    <div class="lessons-p">
+                        Записывайте занятия и возвращайтесь к ним когда угодно.
+                        <p>&nbsp;</p> 
+                        Ученики всегда могут вернуться к прошлым урокам и повторить<br>изученный материал.
+                    </div>
+                </div>
+                <img class="lessons-pic-adapt" src="./public/lessons-adapt.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="opportunities" id="opportunities">
+        <div class="container">
+            <div class="opportunities-bg">
+                <h3>
+                    Возможности
+                </h3>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="opportunities__card-one">
+                            <div class="opportunities__card-one-img-wrap">
+                                <img src="/public/sms.png" alt="">
+                            </div>
+                            <div class="opportunities__card-one-name">
+                                Общение с классом
+                            </div>
+                            <div class="opportunities__card-one-ps">
+                                Видеосвязь<br>Чат с классом
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="opportunities__card-two">
+                            <div class="opportunities__card-two-img-wrap">
+                                <img src="/public/tv.png" alt="">
+                            </div>
+                            <div class="opportunities__card-two-name">
+                                Проведение занятий
+                            </div>
+                            <div class="opportunities__card-two-ps">
+                                Презентация файлов<br>Демонстрация экрана
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="opportunities__card-one">
+                            <div class="opportunities__card-one-img-wrap">
+                                <img src="/public/gg.png" alt="">
+                            </div>
+                            <div class="opportunities__card-one-name">
+                                Посещаемость
+                            </div>
+                            <div class="opportunities__card-one-ps">
+                                Автоматическое<br>отслеживание<br>присутствующих
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="opportunities__card-two">
+                            <div class="opportunities__card-two-img-wrap">
+                                <img src="/public/watch.png" alt="">
+                            </div>
+                            <div class="opportunities__card-two-name">
+                                История занятий
+                            </div>
+                            <div class="opportunities__card-two-ps">
+                                Материалы урока
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mySwiper swiper">
+                    <div class="wrapper swiper-wrapper">
+                        <div class="cards swiper-slide">
+                            <div class="opportunities__card-one-slider">
+                                <div class="opportunities__card-one-img-wrap-slider">
+                                    <img src="/public/sms.png" alt="">
+                                </div>
+                                <div class="opportunities__card-one-name-slider">
+                                    Общение с классом
+                                </div>
+                                <div class="opportunities__card-one-ps-slider">
+                                    Видеосвязь<br>Чат с классом
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards swiper-slide">
+                            <div class="opportunities__card-two-slider">
+                                <div class="opportunities__card-two-img-wrap-slider">
+                                    <img src="/public/tv.png" alt="">
+                                </div>
+                                <div class="opportunities__card-two-name-slider">
+                                    Проведение занятий
+                                </div>
+                                <div class="opportunities__card-two-ps-slider">
+                                    Презентация файлов<br>Демонстрация экрана
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards swiper-slide">
+                            <div class="opportunities__card-one-slider">
+                                <div class="opportunities__card-one-img-wrap-slider">
+                                    <img src="/public/gg.png" alt="">
+                                </div>
+                                <div class="opportunities__card-one-name-slider">
+                                    Посещаемость
+                                </div>
+                                <div class="opportunities__card-one-ps-slider">
+                                    Автоматическое<br>отслеживание<br>присутствующих
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards swiper-slide">
+                            <div class="opportunities__card-two-slider">
+                                <div class="opportunities__card-two-img-wrap-slider">
+                                    <img src="/public/watch.png" alt="">
+                                </div>
+                                <div class="opportunities__card-two-name-slider">
+                                    История занятий
+                                </div>
+                                <div class="opportunities__card-two-ps-slider">
+                                    Материалы урока
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <section class="materials" id="materials">
+        <div class="container">
+            <h3>
+                Как это работает?
+            </h3>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="materials__card">
+                        <div class="materials__card-img-wrap">
+                            <img src="/public/one.png" alt="">
+                        </div>
+                        <div class="materials__card-name">
+                            Составьте расписание
+                        </div>
+                        <div class="materials__card-ps">
+                            Выберите время, предмет и класс.<br>Ученики получат уведомление о<br>предстоящем уроке.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="materials__card">
+                        <div class="materials__card-img-wrap">
+                            <img src="/public/docs.png" alt="">
+                        </div>
+                        <div class="materials__card-name">
+                            Подготовьте материал
+                        </div>
+                        <div class="materials__card-ps">
+                            Загружайте необходимые материалы<br>к уроку.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="materials__card">
+                        <div class="materials__card-img-wrap">
+                            <img src="/public/girls.png" alt="">
+                        </div>
+                        <div class="materials__card-name">
+                            Начните урок с учениками
+                        </div>
+                        <div class="materials__card-ps">
+                            Задавайте вопросы и вызывайте<br>«к доске» детей с поднятой рукой.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="distant">
+        <div class="container">
+            <div class="distant-bg">
+                <div class="distant__letter">    
+                    <h4>
+                        Дистанционные уроки проще простого
+                    </h4>
+                    <div class="col-8">
+                        <h5>
+                            Составьте расписание для своего класса и проведите первое удалённое занятие
+                        </h5>
+                    </div>
+                    <div class="distant-card">
+                        <a href="https://sun9-58.userapi.com/impg/Ar5Zv2xm6VB9_YWlmyUIMN3I3I1CbzUzlFCmWQ/vktZKmImMNU.jpg?size=810x1080&quality=96&sign=49c9c175c6d77ffb69dd1e136f10c2e8&type=album" class="distant-card-nav">
+                            Провести урок
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" >
+                    <div class="distant__card">
+                        <h6>
+                            Я провожу уроки английского в «Виртуальном классе». Это помогло мне безболезненно перевести учеников на дистанционное обучение, не прерывая образовательный процесс.
+                        </h6>
+                        <div class="distant__card-wrap">
+                            <img class="distant__card-img" src="/public/man.png" alt="">
+                            <div class="distant__card-list">
+                                Иван Иванов<br><span>Учитель математики</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <div class="img1">
+                <img src="./public/logo.svg" 
+                alt="">
+            </div>
+            <div class="img1-adapt">
+                <img src="/public/logo-adapt.png" alt="">
+            </div>
+            <div class="img2">
+                <img src="/public/fond.png" 
+                alt="">
+            </div>
+            <div class="img2-adapt">
+                <img src="/public/fond-adapt.png" alt="">
+            </div>
+        </div>
+        <hr style="
+            border: 1px solid #EAEAEA">
+        <div class="footer__bottom">
+            <div class="col-lg-4 col-sm-12">
+                <div class="footer__info">
+                    г Сургут, ул. Базовая, д. 34, офис 10<br>
+                    ОГРН 1238600001200<br>
+                    ИНН8602309464
+                </div>
+            </div>
+            <div class="footer__copyright">
+                ООО Дотсолюшн © 2023
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30, //расстояние между карточками
+        centeredSlides: true, //центрирование
+        autoplay: {
+            delay: 2500, //задержка при переключении слайдов
+            disableOnInteraction: false, //переключение не останавливается никогда
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
+<script src="/js/my.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

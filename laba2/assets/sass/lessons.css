@@ -1,0 +1,59 @@
+@charset "UTF-8";
+:root {
+  --box-shadow-one: 0px 10px 50px 0px #4047E233;
+  --box-shadow-two: 0px 10px 50px 0px #FCA20633;
+  --box-shadow-opportunities: 0px 10px 50px 0px #4047E233;
+}
+
+/*стили третьего блока*/
+.lessons {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .lessons {
+    margin-top: 30px;
+  }
+}
+.lessons .lessons-bg {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .lessons .lessons-bg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .lessons .lessons-bg .lessons-pic {
+    display: none;
+  }
+}
+.lessons .lessons-bg .lessons-p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: #3F3A51;
+}
+@media screen and (max-width: 576px) {
+  .lessons .lessons-bg .lessons-p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 296px;
+  }
+}
+.lessons .lessons-bg .lessons-pic-adapt {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .lessons .lessons-bg .lessons-pic-adapt {
+    display: block;
+    width: 296px;
+  }
+}
+
+/*конец стили третьего блока*//*# sourceMappingURL=lessons.css.map */

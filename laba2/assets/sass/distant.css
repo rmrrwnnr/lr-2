@@ -1,0 +1,110 @@
+@charset "UTF-8";
+:root {
+  --box-shadow-one: 0px 10px 50px 0px #4047E233;
+  --box-shadow-two: 0px 10px 50px 0px #FCA20633;
+  --box-shadow-opportunities: 0px 10px 50px 0px #4047E233;
+}
+
+/*стили для шестого блока*/
+.distant {
+  background-color: #DFE1FF;
+}
+.distant .distant-bg {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 80px;
+}
+@media screen and (max-width: 576px) {
+  .distant .distant-bg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 320px;
+  }
+}
+.distant .distant-bg .distant__letter {
+  padding-top: 104px;
+  margin-right: 135px;
+}
+@media screen and (max-width: 576px) {
+  .distant .distant-bg .distant__letter {
+    padding-top: 60px;
+    margin-right: 0;
+  }
+}
+.distant .distant-bg .distant__letter .distant-card {
+  width: 180px;
+  height: 50px;
+  background-color: #4047E2;
+  border-radius: 10px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #F9F9F9;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 576px) {
+  .distant .distant-bg .distant__letter .distant-card {
+    width: 296px;
+    height: 50px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+  }
+}
+.distant .distant-bg .distant__letter .distant-card .distant-card-nav {
+  color: #F9F9F9;
+  text-decoration: none;
+}
+.distant .distant-bg .distant__letter .distant-card .distant-card-nav:hover {
+  text-decoration: underline;
+  color: #F9F9F9;
+}
+.distant .distant__card {
+  background-color: #FFFFFF;
+  border-radius: 35px;
+  margin-top: 80px;
+  margin-bottom: 72px;
+  width: 629px;
+  height: 263px;
+}
+@media screen and (max-width: 576px) {
+  .distant .distant__card {
+    width: 296px;
+    height: 275px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+  }
+}
+.distant .distant__card .distant__card-wrap {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 576px) {
+  .distant .distant__card .distant__card-wrap {
+    padding-bottom: 25px;
+  }
+}
+.distant .distant__card .distant__card-wrap .distant__card-img {
+  padding-top: 18px;
+}
+.distant .distant__card .distant__card-wrap .distant__card-list {
+  padding-top: 27px;
+  padding-left: 16px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+.distant .distant__card .distant__card-wrap .distant__card-list span {
+  color: #8F99AC;
+}
+
+/*конец стили для шестого блока*//*# sourceMappingURL=distant.css.map */

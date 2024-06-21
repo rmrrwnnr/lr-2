@@ -1,0 +1,60 @@
+@charset "UTF-8";
+:root {
+  --box-shadow-one: 0px 10px 50px 0px #4047E233;
+  --box-shadow-two: 0px 10px 50px 0px #FCA20633;
+  --box-shadow-opportunities: 0px 10px 50px 0px #4047E233;
+}
+
+/*стили для второго блока*/
+.class {
+  margin-top: 80px;
+  background-color: #DFE1FF;
+}
+@media screen and (max-width: 576px) {
+  .class {
+    margin-top: 0;
+    background-color: white;
+  }
+}
+.class .class-bg {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .class .class-bg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.class .class-bg p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: #3F3A51;
+}
+@media screen and (max-width: 576px) {
+  .class .class-bg p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+.class .class-pic {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-opportunities);
+}
+@media screen and (max-width: 576px) {
+  .class .class-pic {
+    width: 320px;
+    height: 129px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/*конец сиди второго блока*//*# sourceMappingURL=class.css.map */
